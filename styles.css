@@ -12,7 +12,7 @@ body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("images/Header Background.jpg");
+    background-image: url("Images/Header Background.jpg");
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -203,6 +203,20 @@ body {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+.btn-danger{
+    background-color: rgb(253, 81, 81);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: .67em .67em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-danger:hover{
+    background-color: rgb(252, 41, 41);
 }
 
 @media screen and (max-width:800px) {
